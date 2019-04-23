@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"
+					type="button">
+					<span class="icon-bar"> </span>
+					<span class="icon-bar"> </span>
+					<span class="icon-bar"> </span>
+				</button>
+				<a class="navbar-brand" href="/"> <img src="images/logo1.png" alt="Your logo" /> </a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#"> Home </a>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Services <strong class="caret"></strong>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"> Hotels </a>
+								</li>
+								<li>
+									<a href="#"> Flight Bookings </a>
+								</li>
+								<li>
+									<a href="#"> Train Bookings</a>
+								</li>
+
+								<li class="divider">
+
+								</li>
+								<li class="dropdown-header">
+									More Services
+								</li>
+
+								<li>
+									<a href="#"> List your property</a>
+								</li>
+
+								<li>
+									<a href="#"> Share your travel experience</a>
+								</li>
+							</ul> <!-- End dropdown menu-->
+						</li>
+					</ul> <!-- ENd nav-->
+
+
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+						<button type="submit" class="btn bth-default">
+							<span class="glyphicon glyphicon-search ">
+
+							</span>
+						</button>
+					</form> <!-- End navbar form-->
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-user"></span> My Account <strong
+									class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"> <span class="glyphicon glyphicon-wrench"></span> Settings </a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile </a>
+								</li>
+								<li>
+									<a href="#"> <span class="glyphicon glyphicon-briefcase"></span> My Trips</a>
+								</li>
+								<li class="divider"> </li>
+								<li>
+									<a href="#"> <span class="glyphicon glyphicon-off"></span> Sign-out </a>
+								</li>
+							</ul>
+						</li>
+					</ul> <!-- End nav pull right-->
+
+				</div> <!-- End nav collapse-->
+
+			</div> <!-- End container-->
+		</div> <!-- End Nav bar-->
+		<hr>
+		<hr>
+
+
+		<div class="row" id=" bigCallout">
+			<div class="col-12">
+
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert"> &times</button>
+					<h4> Registered Successfully!!!</h4>
+					<p>
+						Thanks for registering. We'll mail you the details shortly :-)
+					</p>
+				</div>
+
+				<!--visible only on small devices-->
+				<div class="well well-small visible-sm">
+					<a href="#" class="btn btn-large btn-block btn-default">
+						<span class="glyphicon glyphicon-phone">
+							Give us a call !!!
+						</span></a>
+				</div><!-- End small-well-->
+
+				<div class="well">
+					<div class="page-header">
+						<h1> Enjoy your Dream Vacation!!!<small> "To Travel is to live"</small></h1>
+					</div>
+					<!--End of page header-->
+					<p class="lead">
+						Travel buddy brings you the best travel experience with dedicated
+						travel guide and accomodations at best deals.Every travel tale has
+						something special, this is why we invite you all to share yours with us.
+					</p>
+					<p class="lead"> Register with us to get a customized travel plan.</p>
+					<a href="#" class="btn btn-large btn-primary" id="alertMe"> Register</a>
+					<a href="#" class="btn btn-large btn-link"> click for more details</a>
+
+
+				</div> <!-- End of well-->
+			</div> <!-- End of Col-12-->
+		</div>
+		<!--End row bigCallout-->
+
+
+
+
+		<div class="carousel silde" id="myCarousel">
+
+			<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!-- Wrapper for slides-->
+			<div class="carousel-inner">
+
+
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4> Better vacation starts here </h4>
+						<p> From booking to staying, the whole process is easy and enjoyable</p>
+					</div> <!-- End of caption-->
+				</div> <!-- End of item-->
+
+				<div class="item " id="slide2">
+					<div class="carousel-caption">
+						<h4> Bookings</h4>
+						<p> Book beach houses, cabins, condos and more, worldwide</p>
+					</div> <!-- End of caption-->
+				</div> <!-- End of item-->
+
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4> More for less</h4>
+						<p> More space, more privacy and more amenities for lesser price
+						</p>
+					</div> <!-- End of caption-->
+				</div> <!-- End of item-->
+
+
+
+			</div>
+			<!--End of inner-->
+
+
+			<!-- Controls-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel">
+				<span class="icon-prev"></span>
+			</a>
+
+			<a class="right carousel-control" data-slide="next" href="#myCarousel">
+				<span class="icon-next"></span>
+			</a>
+
+		</div>
+		<!--End myCarousel-->
+
+		<div class="row" id="featuresHeading">
+			<div class="col-12">
+				<h2>
+					Recommended destinations...
+				</h2>
+				<p class="lead">
+					Get inspired, find the place that helps you soothe your heart and start your journey...
+				</p>
+			</div> <!-- End col-12-->
+
+		</div>
+		<!--End row featuresHeading	-->
+
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title"> Day trip - Rio De Janeiro</h3>
+					</div> <!-- End panel heading1-->
+
+					<img src="images/img1.jpg" alt="Beautifil Rio De Janeiro beach" class="img-circle" />
+					<p class="lead"> Sunrise + Secret pool + Wild beaches ! </p>
+
+					<a href="#" target="_blank" class="btn btn-block btn-primary"> Click for more info</a>
+				</div> <!-- End of panel1-->
+			</div> <!-- enf of col-sm-4-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title"> History walk - San Juan</h3>
+					</div> <!-- End panel heading3-->
+
+					<img src="images/img3.jpg" alt="San juan street showing flower pots" class="img-circle" />
+					<p class="lead"> Old San Juan best kept secrets tour ... </p>
+
+					<a href="#" target="_blank" class="btn btn-block btn-primary"> Click for more info</a>
+				</div> <!-- End of panel2-->
+			</div> <!-- enf of col-sm-4-->
+
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title"> Guided hike - Hadano</h3>
+					</div> <!-- End panel heading2-->
+
+					<img src="images/img2.jpg" alt="Trees with snow covered Hadano mountain in the background"
+						class="img-circle" />
+					<p class="lead"> A Small mountain hike and refreshing yoga </p>
+
+					<a href="#" target="_blank" class="btn btn-block btn-primary"> Click for more info</a>
+				</div> <!-- End of panel3-->
+			</div> <!-- enf of col-sm-4-->
+
+		</div>
+		<!--End row features-->
+
+
+
+
+		<div class="row" id=" moreInfo">
+			<div class="col-sm-6">
+				<h3> Featured Destinations... </h3>
+
+
+
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"> <a href="#tab1" data-toggle="tab"> Paris</a></li>
+						<li> <a href="#tab2" data-toggle="tab"> San Diego</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4> <span class="glyphicon glyphicon-map-marker"></span>
+								Most-vistied <small> Best rated destination </small></h4>
+
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84002
+								.67891239015!2d2.3522218608208236!3d48.85661399651601!2m3!1f0!2f0!3f0!3m
+								2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2
+								sParis%2C+France!5e0!3m2!1sen!2sin!4v1556021081149!5m2!1sen!2sin" width="100%" height="250" frameborder="0"
+								style="border:0" allowfullscreen></iframe>
+
+							<p>
+								Paris, France's capital, is a major European city and a global center for art, fashion,
+								gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards
+								and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century,
+								Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer
+								boutiques along the Rue du Faubourg Saint-Honoré.
+							</p>
+
+						</div> <!-- End of tab pane1-->
+
+
+						<div class="tab-pane" id="tab2">
+							<h4> Explore Experiences...</h4>
+
+							<img src="images/san 1.jpg" class="bootstrap img-rounded pull-left"
+								alt="sunrise pic featuring mountains" />
+							<p>
+								Abundant sunshine, award-winning craft beer, awesome attractions and absolutely
+								delicious
+								Cali-Baja flavors along with more than 300 square miles of outdoor fun are
+								calling you to California's Beach City this Spring. Register
+								and start planning your Spring now.
+							</p>
+
+							<p>
+								With near perfect weather year-round, 70 miles of spectacular coastline,
+								world-class attractions and a thriving urban core, complete with a sophisticated art,
+								dining and nightlife scene, San Diego has earned the name California’s beach city.
+
+							</p>
+
+							<p>
+								Happiness is calling from San Diego.It's time to book and start enjoying
+								your vacation.
+							</p>
+
+							<a href="#myModal" role="button" class="btn btn-danger" data-toggle="modal">
+								<span class="glyphicon glyphicon-heart"> </span> Book Now !!!
+							</a>
+
+
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title"> Book now !!! </h4>
+										</div> <!-- End of Modal header-->
+
+										<div class="modal-body">
+											<h4>San-Diego Package</h4>
+
+											<p> We'll send various San-Diego packages and tour plans to your mail
+												shortly...
+											</p>
+
+											<hr>
+											<p> <small class="text-muted"> Please provide your details...</small></p>
+
+
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputName"> Name </label>
+
+													<div class="col-lg-10">
+														<input class="form-control" id="inputName" placeholder="Name"
+															type="text">
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inpuEmail"> Email
+													</label>
+
+													<div class="col-lg-10">
+														<input class="form-control" id="inputEmail"
+															placeholder="Email-id" type="text">
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label class=" col-lg-2 control-label" for="inputNumber">
+														Mobile</label>
+
+													<div class="col-lg-10">
+														<input class="form-control" id="inputNumber"
+															placeholder="Mobile Number" type="tel">
+
+														<hr>
+														<button class="btn btn-success pull-right" type="submit"> Send
+															!</button>
+													</div>
+												</div>
+
+											</form>
+
+										</div><!-- End of Modal body-->
+
+
+										<div class="modal-footer">
+											<button class="btn btn-default" data-dismiss="modal" type="button"> Close
+											</button>
+											<button class="btn btn-primary" type="button">Save changes</button>
+
+										</div> <!-- End of Modal Footer	-->
+									</div> <!-- End of Modal content-->
+								</div> <!-- end of Modal dialog-->
+
+							</div> <!-- End of myModal-->
+
+
+
+
+						</div>
+						<!--End of tab pane2-->
+
+
+
+					</div> <!-- End of tab content-->
+				</div><!-- End of tabbable-->
+
+			</div> <!-- End of  col-sm-6-->
+
+			<div class="col-sm-6">
+				<h3> Travel Experience</h3>
+				<p>Every travel tale has something special, this is why we invite you all to
+					 share yours with us. We would 
+					be more than happy to hear your travelling experiences...</p>
+
+				<h4> Trending Places...</h4>
+
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">New Orleans</h4>
+						<p class="list-group-item-text"> Louisiana</p>
+					</a>
+
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Asheville</h4>
+						<p class="list-group-item-text"> Gokul loves online Games and he plays really well. He is into
+							Machine learning. </p>
+					</a>
+
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading"> Austin</h4>
+						<p class="list-group-item-text"> Texas </p>
+					</a>
+
+				</div> <!-- End of list group-->
+
+				<h4> Your vacation is safe with us... </h4>
+				<p>
+					Secure payments, 24/7 support and a Book with Confidence guarantee.
+				</p>
+
+				<p> From booking to staying, the whole process is easy and enjoyable</p>
+
+				<p> All the comforts of home :
+
+					Enjoy full kitchens, laundry, pools, yards and more</p>
+
+			</div> <!-- End of col-sm-6-->
+
+
+		</div>
+		<!--End row moreInfo-->
+
+
+		<hr>
+
+
+		<div class="row" id=" moreCourses">
+			<div class="col-12">
+				<h3> Open your world</h3>
+				<div class="thumbnails row">
+					<div class="col-6">
+						<div class="thumbnail">
+							<img src="images/treehouse.jpg">
+
+							<div class="label label-success price">
+								<span class="glyphicon glyphicon-heart"> Dream</span>
+							</div>
+
+							<div class="caption">
+								<h3> Get some Perspective</h3>
+
+								<p> Take your trips to new heights with these one of a kind tree houses</p>
+
+
+								<p>
+									<a href="#" class="btn btn-primary btn-small" target="_blank">Book now</a>
+									<a href="#" class="btn btn-link btn-small" target="_blank"> Know more...</a>
+								</p>
+							</div> <!-- End of caption-->
+						</div> <!-- End of thumbnail-->
+					</div> <!-- End of Col-6-->
+
+
+
+
+					<div class="col-6">
+						<div class="thumbnail">
+							<img src="images/boat.jpg">
+
+							<div class="label label-info price">
+								<span class="glyphicon glyphicon-heart"> Explore</span>
+							</div>
+
+							<div class="caption">
+								<h3> Sail the high seas</h3>
+
+								<p> Follow in the footsteps of adventurers past with boats of all shapes and sizes.
+								</p>
+								<p>
+									<a href="#" class="btn btn-primary btn-small" target="_blank">Book now</a>
+									<a href="#" class="btn btn-link btn-small" target="_blank"> Know more...</a>
+								</p>
+							</div> <!-- End of caption-->
+						</div> <!-- End of thumbnail-->
+					</div> <!-- End of Col-6-->
+				</div> <!-- End of thumbnails row-->
+			</div> <!-- End of col-12-->
+
+
+
+		</div>
+		<!--End row more Courses-->
+
+	</div>
+	<!--End container-->
+
+	<footer>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h5> Copyright &copy; 2019</h5>
+
+				</div> <!-- End ogf col-sm-2-->
+
+				<div class="col-sm-4">
+					<h5> About us</h5>
+					<p> Well.. I see that you are curious to know about us. Good. We like people who are curious. Stay
+						curious and Awesome </p>
+
+				</div> <!-- End od col-sm-4-->
+
+				<div class="col-sm-2">
+					<h5> Company</h5>
+					<ul class="unstyled">
+						<li> <a href="#">Community</a></li>
+						<li><a href="#">Affiliates</a></li>
+						<li> <a href="#"> Careers</a></li>
+						<li> <a href="#">Media Center</a></li>
+					</ul>
+
+				</div> <!-- End of Col-sm-2-->
+
+				<div class="col-sm-2">
+					<h5> Follow us on</h5>
+					<ul class="unstyled">
+						<li> <a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li> <a href="#"> Instagram</a></li>
+						<li> <a href="#">Google plus</a></li>
+					</ul>
+
+				</div> <!-- End of col-sm-2-->
+
+				<div class="col-sm-2">
+					<h5>
+						Destinations chosen with <span class="glyphicon glyphicon-heart"></span> By Travel Buddy team
+					</h5>
+				</div>
+
+			</div> <!-- End of row-->
+		</div> <!-- End of container-->
+
+	</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+</body>
+
+</html>
