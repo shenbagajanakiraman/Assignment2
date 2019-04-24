@@ -46,7 +46,7 @@ text-rendering: optimizelegibility;
 }
 
 
-   .well .page-header
+.well .page-header
 {
     margin-top: 0px;
 }
@@ -62,6 +62,42 @@ ul.unstyled
     list-style:none;
     padding:0;
 }
+
+#c1 {
+    font-size: 50px;
+    color:#041633;
+}
+#p1 {
+    color:#041633;
+    font-size: 26px;
+    padding-bottom: 3cm;
+}
+
+
+#c2 {
+    font-size: 50px;
+    color:black;
+}
+#p2 {
+    color:black;
+    font-size: 26px;
+    padding-bottom: 3cm;
+}
+
+
+#c3 {
+    font-size: 50px;
+    color:black;
+    text-shadow:1px 2px #eee;
+}
+#p3 {
+    color:black;
+    font-size: 26px;
+    text-shadow:1px 2px #eee;
+   }
+
+
+
 
 /* --------------------------------------
    Navbar
@@ -96,17 +132,17 @@ ul.unstyled
 
    #slide1
    {
-       background: url('../../images/starry_sky_night_trees_121201_1920x1080.jpg') top center no-repeat;
+       background: url('../../images/P1.jpg') top center no-repeat;
    }
 
    #slide2
    {
-       background: url('../../images/moon_light_night_darkness_river_trees_water_52085_1600x1200.jpg') top center no-repeat;
+       background: url('../../images/P2.jpg') top center no-repeat;
    }
 
    #slide3
    {
-       background: url('../../images/starry_sky_night_trees_night_landscape_118760_1920x1080.jpg') top center no-repeat;
+       background: url('../../images/P3.jpg') top center no-repeat;
    }
 
 
@@ -198,17 +234,17 @@ ul.unstyled
 
    #slide1
    {
-       background: url('../../images/starry_sky_night_trees_121201_1920x1080.jpg') top center no-repeat;
+       background: url('../../images/P1.jpg') top center no-repeat;
    }
 
    #slide2
    {
-       background: url('../../images/moon_light_night_darkness_river_trees_water_52085_1600x1200.jpg' top center no-repeat;
+       background: url('../../images/P2.jpg' top center no-repeat;
    }
 
    #slide3
    {
-       background: url('../../images/starry_sky_night_trees_night_landscape_118760_1920x1080.jpg') top center no-repeat;
+       background: url('../../images/P3.jpg') top center no-repeat;
    }
 	
 }
@@ -224,17 +260,17 @@ ul.unstyled
 
    #slide1
    {
-       background: url('../../images/starry_sky_night_trees_121201_1920x1080.jpg') top center no-repeat;
+       background: url('../../images/P1.jpg') top center no-repeat;
    }
 
    #slide2
    {
-       background: url('../../images/moon_light_night_darkness_river_trees_water_52085_1600x1200.jpg') top center no-repeat;
+       background: url('../../images/P2.jpg') top center no-repeat;
    }
 
    #slide3
    {
-       background: url('../../images/starry_sky_night_trees_night_landscape_118760_1920x1080.jpg') top center no-repeat;
+       background: url('../../images/P3.jpg') top center no-repeat;
    }
 	
 }
