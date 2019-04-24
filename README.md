@@ -1,3 +1,3 @@
 Assignment-2 Link:
 
-https://github.com/shenbagajanakiraman/Assignment2.git
+https://shenbagajanakiraman.github.io/Assignment2/
