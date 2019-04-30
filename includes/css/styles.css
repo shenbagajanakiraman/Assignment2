@@ -29,7 +29,7 @@ Notes:	 Hand coded for Udemy.com
 }
 .mynav
 {
-    background: #c1c1c1;
+   /* background: #333; */
 }
 
 footer
@@ -58,6 +58,7 @@ text-rendering: optimizelegibility;
 .well .page-header p
 {
     margin-top: 0px;
+    font-family: 'Merriweather', serif;
     
 }
 
@@ -70,34 +71,45 @@ ul.unstyled
 #c1 {
     font-size: 50px;
     color:#041633;
+    font-family: 'Merriweather', serif;
 }
 #p1 {
     color:#041633;
     font-size: 26px;
     padding-bottom: 3cm;
+    font-family: 'Merriweather', serif;
 }
 
 
 #c2 {
     font-size: 50px;
     color:black;
+    font-family: 'Merriweather', serif;
+    
 }
 #p2 {
     color:black;
     font-size: 26px;
     padding-bottom: 3cm;
+    font-family: 'Merriweather', serif;
 }
 
+#myCarousel
+{
+    margin : .5cm 0 .5cm ;
+}
 
 #c3 {
     font-size: 50px;
     color:black;
     text-shadow:1px 2px #eee;
+    font-family: 'Merriweather', serif;
 }
 #p3 {
     color:black;
     font-size: 26px;
     text-shadow:1px 2px #eee;
+    font-family: 'Merriweather', serif;
    }
 
 
